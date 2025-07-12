@@ -1,9 +1,9 @@
 # Simulacion_TDC_2025_K4051
 
-Integrantes: Omar Scarazzato y Gabriel Borré
-Materia: Teoría de Control
-Comisión: K4051
-Cuatrimestre y año : 1C2025
+-Integrantes: Omar Scarazzato y Gabriel Borré
+-Materia: Teoría de Control
+-Comisión: K4051
+-Cuatrimestre y año : 1C2025
 
 # 📘 Simulador Interactivo de Control PID de Temperatura
 
@@ -52,7 +52,7 @@ Una vez que tengas Python instalado , abrí una terminal y ejecutá el siguiente
 
 ```bash
 pip install numpy plotly ipywidgets notebook
-
+```
 
 Estas bibliotecas cumplen las siguientes funciones:
 
@@ -72,7 +72,7 @@ Abrí una terminal o consola de comandos y ejecutá:
 
 ```bash
 jupyter notebook
-
+```
 ### 5. Crear un nuevo notebook en Jupyter
 
 Una vez que se abrió la interfaz web de Jupyter Notebook en tu navegador:
