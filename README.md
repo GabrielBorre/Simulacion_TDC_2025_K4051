@@ -32,8 +32,8 @@ Para poder ejecutar este proyecto necesitás:
 Abrí una terminal (o símbolo del sistema en Windows) y escribí:
 
 ```bash
-python --version```
-
+python --version
+```
 Recordá que la version debe ser la 3.8 o una superior.
 
 
