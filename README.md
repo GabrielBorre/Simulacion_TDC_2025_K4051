@@ -1,9 +1,13 @@
 # Simulacion_TDC_2025_K4051
 
 -Integrantes: Omar Scarazzato y Gabriel Borré
+---
 -Materia: Teoría de Control
+---
 -Comisión: K4051
+---
 -Cuatrimestre y año : 1C2025
+---
 
 # 📘 Simulador Interactivo de Control PID de Temperatura
 
