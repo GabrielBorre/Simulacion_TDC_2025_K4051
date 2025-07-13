@@ -99,7 +99,7 @@ Podés ejecutar los dos simuladores en el mismo archivo, o cada uno en un archiv
 Para dudas, sugerencias, reportar problemas o colaborar con el proyecto, podés:
 
 - Abrir un **issue** en el repositorio.
-- Enviar un correo a: `gborre@frba.utn.edu.ar.com`
+- Enviar un correo a: `gborre@frba.utn.edu.ar`
 
 ¡Gracias por tu interés y colaboración!
 
