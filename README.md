@@ -1,15 +1,16 @@
-# Simulacion_TDC_2025_K4051
+# Teoría de Control - FRBA - UTN
+# TFI: Sistema de control ambiental en Data Centers ( Simulación )
+## Docente: Mgtr. Ing. Oscar Omar Civale
 
--Integrantes: Omar Scarazzato y Gabriel Borré
+## Integrantes: 
+### &nbsp;&nbsp;&nbsp;&nbsp; • Borré Gabriel
+### &nbsp;&nbsp;&nbsp;&nbsp; • Scarazzato Ruben Omar
 ---
--Materia: Teoría de Control
----
--Comisión: K4051
----
--Cuatrimestre y año : 1C2025
+### Comisión: K4051
+### Cuatrimestre y año : 1C2025
 ---
 
-# 📘 Simulador Interactivo de Control PID de Temperatura
+# 📘 Simulador Interactivo de Control de Temperatura y Humedad
 
 Este proyecto permite simular de forma interactiva el comportamiento de un sistema de control de temperatura y humedad de un Datacenter controlado por un controlador PID y por un controlador proporcional para la humedad. Los usuarios pueden ajustar los parámetros del controlador y observar gráficamente cómo responde el sistema ante perturbaciones.
 
