@@ -165,7 +165,7 @@ def update_plot(Kp, HR_ref, HR_inicial, perturbation_start, perturbation_end, HR
     fig.add_trace(go.Scatter(x=t, y=output, mode='lines', name='Señal de Control (P)', line=dict(color='brown')), row=2, col=1)
 
     # Subplot 3: Señal de error
-    fig.add_trace(go.Scatter(x=t, y=s_error, mode='lines', name='Señal de Control (e)', line=dict(color='grey')), row=3, col=1)
+    fig.add_trace(go.Scatter(x=t, y=s_error, mode='lines', name='Señal de error (e)', line=dict(color='grey')), row=3, col=1)
     
     # Subplot 4: Kp
     fig.add_trace(go.Scatter(x=t, y=Kp_ajustado, mode='lines', name='Kp', line=dict(color='black')), row=4, col=1)
