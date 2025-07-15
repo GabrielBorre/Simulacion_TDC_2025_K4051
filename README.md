@@ -5,7 +5,7 @@
 ## Integrantes: 
 ### &nbsp;&nbsp;&nbsp;&nbsp; • Borré Gabriel
 ### &nbsp;&nbsp;&nbsp;&nbsp; • Scarazzato Ruben Omar
----
+##
 ### Comisión: K4051
 ### Cuatrimestre y año : 1C2025
 ---

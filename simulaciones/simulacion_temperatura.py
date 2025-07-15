@@ -153,7 +153,7 @@ def update_plot(Kp, Ki, Kd, T_ref, perturbation_start, perturbation_end, T_amb_p
 
     fig.add_trace(go.Scatter(x=t, y=output, mode='lines', name='Señal de control (output)', line=dict(color='brown')), row=3, col=1)
 
-    fig.add_trace(go.Scatter(x=t, y=e, mode='lines', name='Error (e)', line=dict(color='magenta')), row=4, col=1)
+    fig.add_trace(go.Scatter(x=t, y=e, mode='lines', name='Error', line=dict(color='magenta')), row=4, col=1)
     
     fig.update_layout(
         height=1000,
@@ -169,9 +169,6 @@ def update_plot(Kp, Ki, Kd, T_ref, perturbation_start, perturbation_end, T_amb_p
     fig.update_yaxes(title_text="Error", row=4, col=1) 
     
     # Set x-axis title for each subplot
-    fig.update_xaxes(title_text="Tiempo (s)", row=1, col=1)
-    fig.update_xaxes(title_text="Tiempo (s)", row=2, col=1)
-    fig.update_xaxes(title_text="Tiempo (s)", row=3, col=1)
     fig.update_xaxes(title_text="Tiempo (s)", row=4, col=1)
 
     fig.show()

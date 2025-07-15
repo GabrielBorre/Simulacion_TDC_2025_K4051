@@ -93,12 +93,12 @@ def update_plot(Kp, HR_ref, HR_inicial, perturbation_start, perturbation_end, HR
     error_min=HR_ref-rango_error
     
     fig = make_subplots(rows=4, cols=1,
-                        shared_xaxes=True,
+                        shared_xaxes=False,
                         vertical_spacing=0.08,
                         subplot_titles=(
                             "Respuesta del sistema de Humedad (Control Proporcional)",
                             "Señal de control (output)",
-                            "Señal de error (e)",
+                            "Error",
                             "Kp"
                         ))
 
@@ -164,8 +164,8 @@ def update_plot(Kp, HR_ref, HR_inicial, perturbation_start, perturbation_end, HR
     # Subplot 2: Señal de control (output)
     fig.add_trace(go.Scatter(x=t, y=output, mode='lines', name='Señal de Control (P)', line=dict(color='brown')), row=2, col=1)
 
-    # Subplot 3: Señal de error
-    fig.add_trace(go.Scatter(x=t, y=s_error, mode='lines', name='Señal de error (e)', line=dict(color='grey')), row=3, col=1)
+    # Subplot 3: Error
+    fig.add_trace(go.Scatter(x=t, y=s_error, mode='lines', name='Error', line=dict(color='grey')), row=3, col=1)
     
     # Subplot 4: Kp
     fig.add_trace(go.Scatter(x=t, y=Kp_ajustado, mode='lines', name='Kp', line=dict(color='black')), row=4, col=1)
@@ -180,8 +180,9 @@ def update_plot(Kp, HR_ref, HR_inicial, perturbation_start, perturbation_end, HR
 
     fig.update_yaxes(title_text="Humedad Relativa (%)", row=1, col=1)
     fig.update_yaxes(title_text="Señal de Control", row=2, col=1)
-    fig.update_yaxes(title_text="Señal de Eror", row=3, col=1)
+    fig.update_yaxes(title_text="Error", row=3, col=1)
     fig.update_yaxes(title_text="Kp", row=4, col=1)
+    
     fig.update_xaxes(title_text="Tiempo (s)", row=4, col=1)
 
     fig.show()
