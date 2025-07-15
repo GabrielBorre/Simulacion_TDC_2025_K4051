@@ -1,5 +1,5 @@
 # Teoría de Control - FRBA - UTN
-# TFI: Sistema de control ambiental en Data Centers ( Simulación )
+# TFI: Sistema de control ambiental en Data Centers (Simulación)
 ## Docente: Mgtr. Ing. Oscar Omar Civale
 
 ## Integrantes: 
